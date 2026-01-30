@@ -1,10 +1,10 @@
 # NHANES Dataset (XPT to CSV)
 
-Repository ini berisi **dataset NHANES (National Health and Nutrition Examination Survey)** yang telah **dikonversi dari format `.xpt` (SAS Transport File) menjadi `.csv`** agar lebih mudah digunakan dan diakses melalui GitHub.
+Repository ini berisi **dataset NHANES (National Health and Nutrition Examination Survey)** yang telah **dikonversi dari format `.xpt` (SAS Transport File) menjadi `.csv`** agar lebih mudah digunakan melalui GitHub.
 
 
 ## Struktur Dataset
-- `*.csv` → Dataset NHANES hasil konversi dari file `.xpt`
+- `.csv` → Dataset NHANES hasil konversi dari file `.xpt`
 - Setiap file CSV merepresentasikan data yang sama dengan file XPT aslinya
 
 Dataset dikonversi dari format `.xpt` ke `.csv` menggunakan Python, tanpa mengubah isi maupun struktur variabel aslinya.
@@ -27,5 +27,3 @@ Data berasal dari situs resmi NHANES (CDC):
 https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/7
 
 ---
-
-Jika ada pertanyaan atau ingin menggunakan dataset ini, silakan merujuk ke dokumentasi resmi NHANES.
